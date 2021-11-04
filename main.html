@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>javascript</title>
+        <link rel="stylesheet" href="./main.css" />
+
+
+
+    </head>
+
+    <body>
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+      <script src="./main.js"></script>
+
+
+      <form action=""  id="registration" method="post">
+        <div>
+          <label for="Nom" >Nom</label>
+          <input id="Nom"  name="Nom" type="text"  />
+        </div>
+        <div>
+          <label for="Prenom"  >Prenom</label>
+          <input name="Prenom" id="Prenom"  type="text"  />
+        </div>
+        <div>
+          <label for="Date_de_naissance"  >Date de naissance</label>
+          <input id="Date_de_naissance"  name="Date_de_naissance" type="date"  />
+        </div>
+        <div>
+          <label for="Email"  >Email</label>
+        <input id="Email"  name="Email" type="email"/>
+        </div>
+        <div>
+        <label for="Telephone"  >Telephone</label>
+        <input id="Telephone"  name="Telephone" type="number"   />
+        </div>
+        <div>
+        <label for"Frequence"  >Fréquence de lecture du blog</label>
+          <input id="Frequence" name="Frequence" type="range" />
+        </div>
+
+          <div >
+        <input type="submit" value="SUBMIT">
+        </div>
+
+      </form>
+
+      <div class="errorBlock"></div>
+
+
+    </body>
+</html>
